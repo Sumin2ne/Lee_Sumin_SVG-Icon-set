@@ -1,0 +1,78 @@
+* {
+      margin: 0;
+      padding: 0;
+      border: none;
+
+      box-sizing: border-box;
+}
+
+body {
+      font-size: 16px;
+      background-color: white;
+      color: black;
+}
+
+
+a {
+      text-decoration: none;
+      color: white;
+}
+
+
+.hidden {
+      display: none;
+}
+
+
+/* 1. Header */
+
+header {
+      background-color: rgb(22, 18, 46);
+}
+
+nav {
+      display: flex;
+      justify-content: space-between;
+}
+
+li {
+      margin-right: 40px;
+}
+
+
+.nav {
+      display: flex;
+      margin-top: 110px;
+}
+
+.nav li {
+      font-size: 22px;
+}
+
+.nav li:first-child {
+      margin-left: 24px;
+}
+
+#main-logo {
+      width: 140px;
+      height: 140px;
+      display: flex;
+      justify-content: center;
+
+      margin-top: 20px;
+      margin-bottom: 20px;
+}
+
+
+#top-nav-L {
+      margin-right: 10px;
+}
+
+/* #top-nav-L li:last-child {
+      border: 1px solid white;
+      border-radius: 5px;
+      
+      padding: 10px;
+} */
+
+

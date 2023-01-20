@@ -7,15 +7,22 @@
 }
 
 body {
+      margin: 0 auto;
       font-size: 16px;
-      background-color: white;
-      color: black;
+      background-color: rgb(7, 0, 26);
+      color: rgb(241, 241, 241);
 }
 
 
 a {
       text-decoration: none;
       color: white;
+      cursor: pointer;
+}
+
+a:hover {
+      color: grey;
+      transition: all 0.2s ease;
 }
 
 
@@ -28,10 +35,12 @@ a {
 
 header {
       background-color: rgb(22, 18, 46);
+      box-shadow: 5px 5px 5px rgb(39, 34, 67) ;
 }
 
 nav {
       display: flex;
+      align-items: baseline;
       justify-content: space-between;
 }
 
@@ -76,3 +85,43 @@ li {
 } */
 
 
+ /* 2. main */
+
+#benner {
+      display: flex;
+      justify-content: center;
+      margin-top: 30px;
+      font-size: 35px;
+
+      border: solid 1px rgb(222, 211, 255);
+      border-radius: 5px;
+      padding: 10px;
+
+      margin-left: 50px;
+      margin-right: 50px;
+
+      cursor: pointer;
+}
+
+#benner:hover {
+      background-color: rgb(222, 211, 255);
+      color: rgb(4, 0, 26);
+}
+
+.icon-container{
+      margin: 30px 100px;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      
+}
+
+.wrapper {
+      margin: 20px;
+      text-align: center;
+}
+
+.wrapper img {
+      width: 170px;
+      padding: 10px;
+}

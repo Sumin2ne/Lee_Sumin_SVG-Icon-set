@@ -132,6 +132,10 @@ li {
 
 .wrapper img:hover {transform: scale(1.2);}
 
+.wrapper p {
+      font-size: 22px;
+}
+
 .wrapper p:hover {
       background-color: azure;
       color: rgb(6, 4, 18);

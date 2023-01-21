@@ -11,6 +11,10 @@ body {
       font-size: 16px;
       background-color: rgb(7, 0, 26);
       color: rgb(241, 241, 241);
+
+      font-family: 'bely', serif;
+      font-weight: 700;
+      font-style: normal;
 }
 
 
@@ -123,5 +127,12 @@ li {
 
 .wrapper img {
       width: 170px;
-      padding: 10px;
+      padding: 15px;
+}
+
+.wrapper img:hover {transform: scale(1.2);}
+
+.wrapper p:hover {
+      background-color: azure;
+      color: rgb(6, 4, 18);
 }

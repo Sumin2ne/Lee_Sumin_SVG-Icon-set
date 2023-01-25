@@ -1,1 +1,33 @@
-<svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"><title>gemini</title><g fill="#F7F7F7" class="nc-icon-wrapper"><path d="M10.562 18.787l3.741 1.87a4.05 4.05 0 0 0 0-3.74z" opacity=".3"></path><path d="M33.7 16.917a4.05 4.05 0 0 0 0 3.74l3.741-1.87z" opacity=".3"></path><path d="M8.519 44A17.007 17.007 0 0 1 7 37h5.4a3 3 0 0 0 2.97-2.576L16 30l3.991-1.6a1 1 0 0 0 .523-1.376L17 20C17 10 14.339 5 4 5" fill="none" stroke="#F7F7F7" stroke-linecap="square" stroke-miterlimit="10" stroke-width="2"></path><path d="M13 7.367C4.76 10.75 9.5 18.361 1 28.962" fill="none" stroke="#F7F7F7" stroke-miterlimit="10" stroke-width="2"></path><path d="M39.481 44A17.007 17.007 0 0 0 41 37h-5.4a3 3 0 0 1-2.97-2.576L32 30l-3.991-1.6a1 1 0 0 1-.523-1.376L31 20c0-10 2.661-15 13-15" fill="none" stroke="#F7F7F7" stroke-linecap="square" stroke-miterlimit="10" stroke-width="2"></path><path d="M35 7.367c8.237 3.383 3.5 10.994 12 21.6" fill="none" stroke="#F7F7F7" stroke-miterlimit="10" stroke-width="2"></path><path d="M25.719 5.328A9.51 9.51 0 0 1 24 3a9.51 9.51 0 0 1-1.719 2.328A9.509 9.509 0 0 1 20 7a9.5 9.5 0 0 1 4 4 9.5 9.5 0 0 1 4-4 9.509 9.509 0 0 1-2.281-1.672z"></path></g></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Gemini" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #f7f7f7;
+      }
+
+      .cls-2 {
+        isolation: isolate;
+        opacity: .3;
+      }
+
+      .cls-3, .cls-4 {
+        fill: none;
+        stroke: #f7f7f7;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+
+      .cls-4 {
+        stroke-linecap: square;
+      }
+    </style>
+  </defs>
+  <path id="eye-L" class="cls-2" d="m10.562,18.787l3.741,1.87c.61-1.172.61-2.568,0-3.74l-3.741,1.87Z"/>
+  <path id="eye-R" class="cls-2" d="m33.7,16.917c-.61,1.172-.61,2.568,0,3.74l3.741-1.87-3.741-1.87Z"/>
+  <path id="face-L" class="cls-4" d="m8.519,44c-.998-2.199-1.515-4.585-1.519-7h5.4c1.493,0,2.759-1.098,2.97-2.576l.63-4.424,3.991-1.6c.513-.205.762-.787.557-1.3-.01-.026-.022-.051-.034-.076l-3.514-7.024c0-10-2.661-15-13-15"/>
+  <path id="hair-L" class="cls-3" d="m13,7.367c-8.24,3.383-3.5,10.994-12,21.595"/>
+  <path id="face-R" class="cls-4" d="m39.481,44c.998-2.199,1.515-4.585,1.519-7h-5.4c-1.493,0-2.759-1.098-2.97-2.576l-.63-4.424-3.991-1.6c-.513-.205-.762-.787-.557-1.3.01-.026.022-.051.034-.076l3.514-7.024c0-10,2.661-15,13-15"/>
+  <path id="hair-R" class="cls-3" d="m35,7.367c8.237,3.383,3.5,10.994,12,21.6"/>
+  <path id="sparkle" class="cls-1" d="m25.719,5.328c-.688-.684-1.268-1.469-1.719-2.328-.451.859-1.031,1.644-1.719,2.328-.673.668-1.442,1.231-2.281,1.672,1.709.896,3.104,2.291,4,4,.896-1.709,2.291-3.104,4-4-.839-.441-1.608-1.004-2.281-1.672Z"/>
+</svg>
